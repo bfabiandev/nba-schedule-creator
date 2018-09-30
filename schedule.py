@@ -482,8 +482,9 @@ def main():
     save_schedule_to_textfile(teams, games)
     print(calc_loss(teams))
     for team in teams:
-        print(team.name, ": Number of back-to-backs:", team.number_of_back_to_backs(),
-              "Number of back-to-back-to-backs:", team.number_of_back_to_backs_to_backs())
+        print(team.name, ":\nNumber of back-to-backs:", team.number_of_back_to_backs(),
+              "\nNumber of back-to-back-to-backs:", team.number_of_back_to_backs_to_backs())
+        print()
 
 
 if __name__ == '__main__':
