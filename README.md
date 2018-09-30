@@ -8,7 +8,7 @@ python schedule.py
 ```
 
 ## Details
-The script creates a reasonably valid schedule for the 2018/2019 NBA season. When creating the actual NBA schedule, they use ~1200 weights/penalties. This script only factor in around 4 aspects: 
+The script creates a reasonably valid schedule for the 2018/2019 NBA season. When creating the actual NBA schedule, they use ~1200 weights/penalties. This script only factors in around 4 aspects: 
 - No games on the same day (strongest penalty)
 - Minimal number of back-to-backs/maximizing rest
 - Minimum distance travelled
